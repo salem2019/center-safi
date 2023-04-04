@@ -301,6 +301,8 @@ p {
 .navbar {
   bottom: 65px;
 }
+
+
 .navbar-light .navbar-nav .nav-link {
   color: #314584;
   font-size: 1.1rem;
@@ -661,10 +663,25 @@ footer #pfo{
 /*-----------------------------------------------------------
   11. Responsive
 -------------------------------------------------------------*/
+@media (max-width: 1000px) {
+  .navbar {
+    bottom: 0px;
+    
+  }
+  .navbar-light .navbar-brand {
+    margin-right: 40%;
+
+   
+  }
+
+}
+
 @media (max-width: 1700px) {
   .hero-btns {
     margin-bottom: 200px;
+    
   }
+  
 }
 @media (max-width: 1500px) {
   .hero img {
